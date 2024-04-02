@@ -1,9 +1,10 @@
 <script setup lang="ts">
-import MyFirstComponent from '../components/MyFirstComponent.vue'
+import QuizzForm from '../components/QuizzForm.vue'
+import ContactList from '../components/ContactList.vue'
 </script>
 
 <template>
   <main>
-    <MyFirstComponent />
+    <ContactList />
   </main>
 </template>
