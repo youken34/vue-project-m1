@@ -5,6 +5,9 @@
     <router-link to="/quizzform" class="nav-link">Quizz Form</router-link>
     <router-link to="/editablestyle" class="nav-link">Editable style</router-link>
     <router-link to="/hookcomponent" class="nav-link">Hook Component</router-link>
+    <router-link to="/tasklist" class="nav-link">Task List</router-link>
+    <router-link to="/productlistparent" class="nav-link">Product List Parent</router-link>
+    <router-link to="/barnavigation" class="nav-link">Bar de navigation</router-link>
   </nav>
   <RouterView />
 </template>

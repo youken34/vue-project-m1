@@ -5,6 +5,9 @@ import ContactList from '@/components/ContactList.vue'
 import RegistrationForm from '@/components/RegistrationForm.vue'
 import EditableStyle from '@/components/EditableStyle.vue'
 import HookComponent from '@/components/HookComponent.vue'
+import TaskList from '@/components/TaskList.vue'
+import ProductListParent from '@/components/ProductListParent.vue'
+import BarNavigation from '@/components/BarNavigation.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -34,8 +37,23 @@ const router = createRouter({
     },
     {
       path: '/hookcomponent',
-      name: 'hookcomponenet',
+      name: 'hookcomponent',
       component: HookComponent
+    },
+    {
+      path: '/tasklist',
+      name: 'tasklist',
+      component: TaskList
+    },
+    {
+      path: '/productlistparent',
+      name: 'productlistparent',
+      component: ProductListParent
+    },
+    {
+      path: '/barnavigation',
+      name: 'barnavigation',
+      component: BarNavigation
     },
   ]
 })
